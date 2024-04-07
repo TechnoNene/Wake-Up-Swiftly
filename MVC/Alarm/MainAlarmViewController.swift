@@ -73,12 +73,12 @@ class MainAlarmViewController: UITableViewController{
         cell.accessoryView = sw
         
         if alarm.enabled {
-            cell.backgroundColor = UIColor.white
+            cell.backgroundColor = UIColor.secondarySystemBackground
             cell.textLabel?.alpha = 1.0
             cell.detailTextLabel?.alpha = 1.0
             sw.setOn(true, animated: false)
         } else {
-            cell.backgroundColor = UIColor.groupTableViewBackground
+            cell.backgroundColor = UIColor.systemGroupedBackground
             cell.textLabel?.alpha = 0.5
             cell.detailTextLabel?.alpha = 0.5
             sw.setOn(false, animated: false)
