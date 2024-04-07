@@ -498,8 +498,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = Nene.Wake.Up.Swiftly;
 				PRODUCT_NAME = "Wake-Up-Swiftly";
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = Long.Alarm.ios.swift;
+				PRODUCT_NAME = "Alarm-ios-swift";
+>>>>>>> 2829cbf3ced7aa6c13092dfd3f666fa4ae7296d8
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -522,8 +527,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+<<<<<<< HEAD
 				PRODUCT_BUNDLE_IDENTIFIER = Nene.Wake.Up.Swiftly;
 				PRODUCT_NAME = "Wake-Up-Swiftly";
+=======
+				PRODUCT_BUNDLE_IDENTIFIER = Long.Alarm.ios.swift;
+				PRODUCT_NAME = "Alarm-ios-swift";
+>>>>>>> 2829cbf3ced7aa6c13092dfd3f666fa4ae7296d8
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
