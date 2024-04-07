@@ -489,7 +489,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 56M83FXG7S;
+				DEVELOPMENT_TEAM = FR4U7FJGS2;
 				INFOPLIST_FILE = Alarm/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Wake Up Swiftly";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -498,7 +498,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Nene.Wake.Up.Swiftly;
+				PRODUCT_BUNDLE_IDENTIFIER = TechnoNene.Wake.Up.Swiftly;
 				PRODUCT_NAME = "Wake-Up-Swiftly";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -513,7 +513,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 56M83FXG7S;
+				DEVELOPMENT_TEAM = FR4U7FJGS2;
 				INFOPLIST_FILE = Alarm/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Wake Up Swiftly";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -522,7 +522,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Nene.Wake.Up.Swiftly;
+				PRODUCT_BUNDLE_IDENTIFIER = TechnoNene.Wake.Up.Swiftly;
 				PRODUCT_NAME = "Wake-Up-Swiftly";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -538,7 +538,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 56M83FXG7S;
+				DEVELOPMENT_TEAM = FR4U7FJGS2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,7 +567,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 56M83FXG7S;
+				DEVELOPMENT_TEAM = FR4U7FJGS2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
