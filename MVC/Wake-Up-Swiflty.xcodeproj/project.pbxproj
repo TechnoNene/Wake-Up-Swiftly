@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -52,13 +52,13 @@
 		9E603F581BD7CA6600303E93 /* LabelEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelEditViewController.swift; sourceTree = "<group>"; };
 		9E92445A1C690A8D00724DFA /* tickle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tickle.mp3; sourceTree = "<group>"; };
 		9E9BEE061BCF8FF8000CF364 /* WeekdaysViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaysViewController.swift; sourceTree = "<group>"; };
-		9EED786C1AA0F03F00961BC2 /* Alarm-ios-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alarm-ios-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EED786C1AA0F03F00961BC2 /* Wake-Up-Swiftly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wake-Up-Swiftly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EED78701AA0F03F00961BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EED78711AA0F03F00961BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EED78761AA0F03F00961BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EED78781AA0F03F00961BC2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9EED787B1AA0F03F00961BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9EED78811AA0F03F00961BC2 /* Alarm-ios-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alarm-ios-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EED78811AA0F03F00961BC2 /* Wake-Up-SwifltyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wake-Up-SwifltyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EED78861AA0F03F00961BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EED78931AA1E51700961BC2 /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 		9EED78991AA36C7900961BC2 /* AlarmAddEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmAddEditViewController.swift; sourceTree = "<group>"; };
@@ -159,8 +159,8 @@
 		9EED786D1AA0F03F00961BC2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EED786C1AA0F03F00961BC2 /* Alarm-ios-swift.app */,
-				9EED78811AA0F03F00961BC2 /* Alarm-ios-swiftTests.xctest */,
+				9EED786C1AA0F03F00961BC2 /* Wake-Up-Swiftly.app */,
+				9EED78811AA0F03F00961BC2 /* Wake-Up-SwifltyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,9 +211,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EED786B1AA0F03F00961BC2 /* Alarm-ios-swift */ = {
+		9EED786B1AA0F03F00961BC2 /* Wake-Up-Swiftly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EED788B1AA0F03F00961BC2 /* Build configuration list for PBXNativeTarget "Alarm-ios-swift" */;
+			buildConfigurationList = 9EED788B1AA0F03F00961BC2 /* Build configuration list for PBXNativeTarget "Wake-Up-Swiftly" */;
 			buildPhases = (
 				9EED78681AA0F03F00961BC2 /* Sources */,
 				9EED78691AA0F03F00961BC2 /* Frameworks */,
@@ -223,14 +223,14 @@
 			);
 			dependencies = (
 			);
-			name = "Alarm-ios-swift";
+			name = "Wake-Up-Swiftly";
 			productName = WeatherAlarm;
-			productReference = 9EED786C1AA0F03F00961BC2 /* Alarm-ios-swift.app */;
+			productReference = 9EED786C1AA0F03F00961BC2 /* Wake-Up-Swiftly.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9EED78801AA0F03F00961BC2 /* Alarm-ios-swiftTests */ = {
+		9EED78801AA0F03F00961BC2 /* Wake-Up-SwiftlyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EED788E1AA0F03F00961BC2 /* Build configuration list for PBXNativeTarget "Alarm-ios-swiftTests" */;
+			buildConfigurationList = 9EED788E1AA0F03F00961BC2 /* Build configuration list for PBXNativeTarget "Wake-Up-SwiftlyTests" */;
 			buildPhases = (
 				9EED787D1AA0F03F00961BC2 /* Sources */,
 				9EED787E1AA0F03F00961BC2 /* Frameworks */,
@@ -241,9 +241,9 @@
 			dependencies = (
 				9EED78831AA0F03F00961BC2 /* PBXTargetDependency */,
 			);
-			name = "Alarm-ios-swiftTests";
+			name = "Wake-Up-SwiftlyTests";
 			productName = WeatherAlarmTests;
-			productReference = 9EED78811AA0F03F00961BC2 /* Alarm-ios-swiftTests.xctest */;
+			productReference = 9EED78811AA0F03F00961BC2 /* Wake-Up-SwifltyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +274,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9EED78671AA0F03F00961BC2 /* Build configuration list for PBXProject "Alarm-ios-swift" */;
+			buildConfigurationList = 9EED78671AA0F03F00961BC2 /* Build configuration list for PBXProject "Wake-Up-Swiflty" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -287,8 +287,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EED786B1AA0F03F00961BC2 /* Alarm-ios-swift */,
-				9EED78801AA0F03F00961BC2 /* Alarm-ios-swiftTests */,
+				9EED786B1AA0F03F00961BC2 /* Wake-Up-Swiftly */,
+				9EED78801AA0F03F00961BC2 /* Wake-Up-SwiftlyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -352,7 +352,7 @@
 /* Begin PBXTargetDependency section */
 		9EED78831AA0F03F00961BC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9EED786B1AA0F03F00961BC2 /* Alarm-ios-swift */;
+			target = 9EED786B1AA0F03F00961BC2 /* Wake-Up-Swiftly */;
 			targetProxy = 9EED78821AA0F03F00961BC2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -489,17 +489,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DN47FZ6Y9F;
+				DEVELOPMENT_TEAM = 56M83FXG7S;
 				INFOPLIST_FILE = Alarm/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Wake Up Swiftly";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Long.Alarm.ios.swift;
-				PRODUCT_NAME = "Alarm-ios-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = Nene.Wake.Up.Swiftly;
+				PRODUCT_NAME = "Wake-Up-Swiftly";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -507,17 +513,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DN47FZ6Y9F;
+				DEVELOPMENT_TEAM = 56M83FXG7S;
 				INFOPLIST_FILE = Alarm/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Wake Up Swiftly";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Long.Alarm.ios.swift;
-				PRODUCT_NAME = "Alarm-ios-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = Nene.Wake.Up.Swiftly;
+				PRODUCT_NAME = "Wake-Up-Swiftly";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -526,6 +538,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 56M83FXG7S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -540,8 +553,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "LongGames.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "Alarm-ios-swiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nene.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Wake-Up-SwifltyTests";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -554,6 +567,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 56M83FXG7S;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -564,8 +578,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "LongGames.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "Alarm-ios-swiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nene.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Wake-Up-SwifltyTests";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alarm-ios-swift.app/Alarm-ios-swift";
@@ -575,7 +589,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EED78671AA0F03F00961BC2 /* Build configuration list for PBXProject "Alarm-ios-swift" */ = {
+		9EED78671AA0F03F00961BC2 /* Build configuration list for PBXProject "Wake-Up-Swiflty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EED78891AA0F03F00961BC2 /* Debug */,
@@ -584,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EED788B1AA0F03F00961BC2 /* Build configuration list for PBXNativeTarget "Alarm-ios-swift" */ = {
+		9EED788B1AA0F03F00961BC2 /* Build configuration list for PBXNativeTarget "Wake-Up-Swiftly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EED788C1AA0F03F00961BC2 /* Debug */,
@@ -593,7 +607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EED788E1AA0F03F00961BC2 /* Build configuration list for PBXNativeTarget "Alarm-ios-swiftTests" */ = {
+		9EED788E1AA0F03F00961BC2 /* Build configuration list for PBXNativeTarget "Wake-Up-SwiftlyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EED788F1AA0F03F00961BC2 /* Debug */,
