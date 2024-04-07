@@ -1,4 +1,4 @@
-# Alarm-ios-swift     
+# Wake Up Swiftly [![iOS starter workflow](https://github.com/TechnoNene/Wake-Up-Swiftly/actions/workflows/ios.yml/badge.svg)](https://github.com/TechnoNene/Wake-Up-Swiftly/actions/workflows/ios.yml)     
 
 Partially clone of Apple's built-in alarm app in swift.    
 
